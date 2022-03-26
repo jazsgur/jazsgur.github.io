@@ -14,27 +14,48 @@
                 <legend>
                     Alta de usuario
                 </legend>
-                <form action="AltaUsuario.html">
+                <form action="AltaUsuario.html" method="GET">
                     <input type="file" name="dni-frente">
+                    <input type="hidden" value="valoroculto" name="campohidden">
+                <!--tipo hidden no se le muestra al usuario, pero es info que se manda al backend-->
+            
+                    <input type="url" name="url" placeholder="ej: http//dominio.com.ar">
+                <!--atributo placeholder es el texto gris como ejemplo para el usuario-->
 
+                    <input type="text" name="nombre" required placeholder="ingrese algo">
+                    <input type="text" placeholder="valores entre 8 y 9" required pattern="[0-9]" title="Solo numero entre 0 y 9">
+                    <br>
+                    <textarea name="info-extra" cols="50" rows="5" required></textarea>
+                    <!--atributo cols columnas rows filas-->
+                    <hr>
+                    <select name="selectMultiple" multiple required>
+                    <!--optrgoup tag para que el usuario elija opciones-->
+                        <optgroup label="Animales">
+                            <option>Perro</option>
+                            <option>Gato</option>
+                        </optgroup>
+                        <optgroup label="colores">
+                            <option>Rosa</option>
+                            <option>Verde</option>
+                            <option>Violeta</option>
+                        </optgroup>
+                    </select>
+                    <br>
+                    <input list="browser" name="databrowser">
+                    <datalist id="browser">
+                        <option>Chrome</option>
+                        <option>Edge</option>
+                        <option>Firefox</option>
+                        <option>Opera</option>
+                    </datalist>
+                    <br>
+                    <label for="buscar">Tipo search</label>
+                    <input type="search" name="buscar" id="buscar"/>
+                    <br>
+                    <label for="buscarText">Tipo text</label>
+                    <input type="text" name="buscarText"/>
+                    </br>
                     <input type="submit" value="Enviar">
-                </form>
-
-                <form action="AltaUsuario.html">
-                    <input type="file" name="dni-frente">
-                    <input type="hidden" value="valoroculto" name="campoHidden">
-
-                    <input type="submit" value="Enviar">
-
-                    <input type="url" name="url">
-                    <input type="text" name="nombre">
-
-                    <input type="submit value=Enviar">
-
-                    <input type="text" required pattern="[0-9]">
-                    <input type="submit" value="Enviar">
-
-
 
                 </form>
             </fieldset>
