@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Form con tabla</legend>
+        <form action="/clase4/index.html" method="POST">
+            <table>
+                <tr> <!--fila-->
+                    <td> <!--celda-->
+                        <label>Nombre *</label> <br>
+                        <input type="text" name="nombre" maxlength="10">
+                    </td>
+                    <td>
+                        <label>Apellido *</label> <br>
+                        <input type="text" name="apellido" placeholder="Erásun">
+                        <br> 
+                    </td>
+                    </tr>
+                <tr>
+                    <td colspan="2">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="mail@mail.com">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                    <label>Número de DNI *</label> <br>
+                    <input type="number" name="DNI" min="0" max="999999999" maxlength="8">
+                    </td>
+                </tr>
+                <tr>
+                    <td> <br>
+                <label></label> 
+                <input type="submit" value="Enviar">
+                    </td>
+                </tr>
+
+
+            </table>
+        </form>
+    </fieldset>
+
+    
+</body>
+</html>
+</body>
+</html>

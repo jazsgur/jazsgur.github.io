@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+   
+<body>
+    <h1>CREAR CUENTA</h1>
+    <fieldset> <!--fieldset etiqueta recuadrito-->
+        <legend> <!--texto dentro de fieldset-->
+            Informaci&oacute;n Personal
+        </legend>
+        <form>
+            <label>Nombre *</label>
+            <input type="text" name="nombre" placeholder="Jazmin"> <!--placeholder nombrecito en gris-->
+            
+            <label>Apellido *</label>
+            <input type="text" name="apellido" placeholder="Erásun">
+            <br>
+            <label>Direccion de email *</label>
+            <input type="text" name="mail" placeholder="jazmin@gmail.com">
+    <h4>Otros Datos</h4>
+            
+            <label>Nro de DNI *</label>
+            <input type="number" name="XXXXXX" placeholder="11111111">
+        
+
+            <!--solo numeros-->
+            <label>Edad *</label>
+            <input type="number" min="0" max="99">
+            <input type="submit" value="ENVIAR">
+
+            <br>
+            <label>¿Tiene hijxs? (Marque sólo en caso de tener)</label>
+            <input type="checkbox" name="tienehijxs" value="SI">
+    
+            <br>
+            <label>¿Casado?</label>
+            <span>SI</span> <!-- span se usa para mostrar un texto-->
+            <input type="radio" name="casado" value="SI">
+            <span>NO</span>
+            <input type="radio" name="casado" value="NO">
+
+            <br> <br>
+            <label>¿Cuantas carreras hiciste?</label>
+            <select>
+            <br>
+                <!--opciones-->
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="">3</option>
+            </select> 
+
+            <input type="submit" value="ENVIAR">
+
+        </form>
+
+    </fieldset> 
+    
+</body>
+</html>
