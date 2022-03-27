@@ -1,0 +1,30 @@
+
+/* {
+    background-color: blue;
+}
+/*esto es un comentario de una sola linea, CSS */
+/*y estoy usando css interno*/
+body /*aplicar estilo x selector*/ {
+    background-color: rgb(202, 102, 152);
+}
+/*aplicar estilo por id usando #*/
+.container {
+    background-color: rgb(202, 102, 152);
+}
+.section {
+    background-color: rgb(202, 102, 152);
+}
+.links {
+    background-color: blueviolet;
+}
+.img {
+    width: 10%;
+}
+.nav {
+    text-align: center;
+    font-size: large;
+    background-image: url("https://toppng.com/uploads/preview/dibujo-de-flor-para-colorear-spring-flower-icon-11562988519hshrstjjsz.png");
+    max-height: 200px;
+    max-width: auto; /*por que no funciona consultar*/
+
+}
