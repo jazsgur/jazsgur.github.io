@@ -24,7 +24,11 @@ body /*aplicar estilo x selector*/ {
     text-align: center;
     font-size: large;
     background-image: url("https://toppng.com/uploads/preview/dibujo-de-flor-para-colorear-spring-flower-icon-11562988519hshrstjjsz.png");
-    max-height: 200px;
-    max-width: auto; /*por que no funciona consultar*/
+    background-size: 70px 70px;
+    background-repeat: repeat;
 
+}
+.inicio {
+    background-color: rgb(236, 238, 238);
+    
 }
