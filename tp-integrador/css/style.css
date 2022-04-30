@@ -1,0 +1,43 @@
+.navbar-brand {
+    padding-left: 2%;
+}
+.colorlinks a{
+    color: rgb(184, 181, 181);
+}
+.colorlinks a:hover {
+    color: white;
+}
+.colorlinks {
+    color: white;
+}
+#comprartickets {
+    color: rgb(19, 165, 19);
+}
+.card-img-overlay {
+    text-align: right;
+    padding-top: 20%;
+}
+.card-img-overlay {
+    background: #0008;
+}
+.conoce {
+    text-align: center;
+}
+.espacio {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.espaciobsas {
+    padding-left: 10%;
+    padding-right: 10%
+}
+.card-text {
+    font-size:xx-small;
+}
+.card-body .btn {
+    font-size: xx-small;
+}
+.col-md-6 {
+    background-color: rgb(58, 58, 69);
+    color: aliceblue;
+}
