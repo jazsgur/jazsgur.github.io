@@ -41,3 +41,30 @@
     background-color: rgb(58, 58, 69);
     color: aliceblue;
 }
+.container {
+    text-align: center;
+}
+.enviar {
+    display: block;
+}
+#enviar {
+    background-color: rgb(133, 189, 60);
+    color: aliceblue;
+}
+.container {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.titulocharla {
+    text-align: left;
+    color: rgb(96, 93, 93);
+    font-size: small;
+}
+.footer {
+    background-color:rgb(8, 49, 70);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.footer a {
+    color: aliceblue;
+}

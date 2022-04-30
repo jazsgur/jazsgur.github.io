@@ -124,30 +124,39 @@
       </div>
 <br>
     <!--form-->
-
     <div class="container"> 
-        <div class="mb-3">
+    <div class="mb-1">
     <h6>CONVIÉRTETE EN UN</h6>
-    <h2>ORADOR</h2>
-    <p>
-        Anótate como orador para una charla ignite. Cuéntanos de qué quieres hablar!
-    </p>
+    <h1>ORADOR</h1>
+    <br>
+        Anótate como orador para una <span style="border-bottom:1px dotted black; width:20px">charla ignite</span>. Cuéntanos de qué quieres hablar!
+    <br>
+    <div class="filaform row">
+    <div class="columnaform col-6">
         <label for="nombreform" class="form-label"></label>
         <input type="nombreform" class="form-control" id="nombreform" placeholder="Nombre">
-    
+    </div>
+        <div class="columnaform col-6">
         <label for="Apellido" class="form-label"></label>
         <input type="apellidoform" class="form-control" id="apellidoform" placeholder="Apellido">
+        </div>
     </div>
+    </div>
+    
         <div class="mb-3">
         <label for="Infocharla" class="form-label"></label>
         <textarea class="form-control" id="infocharla" rows="3" placeholder="¿Sobre qué quieres hablar?"></textarea>
+        <p class="titulocharla">Recuerda incluir un título para tu charla</p>
       </div>
-    <p class="titulocharla">Recuerda incluir un título para tu charla</p>
-    <button type="button" class="btn btn-success">Enviar</button>
+    <div class="d-grid gap-1">
+        <button class="btn btn" id="enviar" type="button">Enviar</button>
+      </div>
     </div>
+<br>
 
 <!--footer-->
-<ul class="nav justify-content-center">
+<footer>
+<ul class="footer nav justify-content-center">
     <li class="nav-item">
       <a class="nav-link active" aria-current="page" href="#">Preguntas frecuentes</a>
     </li>
@@ -170,5 +179,6 @@
         <a class="nav-link active" aria-current="page" href="#">Estudiantes</a>
       </li>
   </ul>
+</footer>
 </body>
 </html>
