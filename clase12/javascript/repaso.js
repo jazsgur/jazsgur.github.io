@@ -7,10 +7,6 @@ alert(tamaño);
 console.log(tamaño)
 
 //variables
-
-//estrcutura de iteracion
-let alumnos = ['alan','alejandro','daiana','daniel'];
-
 //hay 4 elementos
 //alan > 0
 //alejandro > 1
@@ -145,3 +141,4 @@ if(aux3) {
 }
 
 //guardar objeto
+
