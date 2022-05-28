@@ -1,7 +1,7 @@
 let estudio = true;
 
 //if
-if(!estudio) {
+if(estudio) {
     alert('vamos bien')
     //logica si true
 }else {

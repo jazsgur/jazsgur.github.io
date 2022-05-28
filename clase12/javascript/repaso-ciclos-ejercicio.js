@@ -1,4 +1,5 @@
-/*
+/*While = estructura de control
+  Array = estructura/tipo de dato && objeto
     CARGAR PERSONAS EN UN ARRAY
 
     La carga de datos finaliza con edad = 0
@@ -13,7 +14,7 @@
 /*ejemplo vamos indicar cuantos personas queremos cargar */
 let personas = [];
 
-let edad;
+let equipoLocal = Boca;
 let apellido;
 let nombre;
 
@@ -27,13 +28,14 @@ edad = prompt('Edad:'); //retrna un string > entero
 while( parseInt(edad) > 0 && parseInt(edad) < 119) {
     nombre = prompt('Nombre');
     apellido = prompt('Apellido');
-    personas.push(
-        {
-            edad: edad,
-            nombre: nombre,
-            apellido: apellido
-        }
-    );
+    let persona = {
+        /*atributos del objeto*/ 
+        edad: edad,
+        nombre: nombre,
+        apellido: apellido
+    };
+    // personas = []
+    personas.push(persona);
 
     edad = prompt('Edad:');
 }
@@ -60,3 +62,6 @@ for(const aux of errores) {
 }
 
 //personas.forEach(aux => console.log(aux));
+
+
+
